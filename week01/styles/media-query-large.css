@@ -1,0 +1,13 @@
+@media screen and (min-width: 500px) {
+
+    /* Change header to black background with white text */
+    header {
+        background-color: black;
+        color: white;
+    }
+
+    /* Change main element to display two columns of equal size */
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
