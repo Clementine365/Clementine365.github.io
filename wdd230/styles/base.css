@@ -1,0 +1,97 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset default styles */
+
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Basic Styles */
+body {
+    background-color: whitesmoke;
+    color: #333;
+    font-size: 16px;
+}
+
+header {
+    background-color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0,0);
+    grid-column: 1 / 4;
+}
+img{
+    width: 200px; 
+  height: 200px; 
+}
+/* Navigation Menu */
+nav {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    /* Display links vertically */
+}
+
+nav a {
+    color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+.active {
+	color: yellow;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    /* Center horizontally */
+    padding: 20px;
+}
+h2{
+
+}
+/* Course Cards */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Single column in mobile view */
+    gap: 20px;
+}
+
+/* Style for course links list */
+
+    
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
