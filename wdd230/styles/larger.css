@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+
+    /* Navigation Menu */
+    nav {
+        flex-direction: row;
+        /* Display links horizontally */
+    }
+
+    nav a {
+        padding: 10px 30px;
+        /* Adjust spacing for larger screens */
+    }
+
+    /* Main Content */
+    main {
+        grid-template-columns: 1fr 1fr;
+        /* Two columns in larger views */
+    }
+
+    /* Additional styles for larger screens */
+}
