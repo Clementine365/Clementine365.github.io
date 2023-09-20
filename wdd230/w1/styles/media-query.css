@@ -1,0 +1,30 @@
+/* Apply Roboto font to the entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Apply styling to header, main, and footer */
+header,
+main,
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f0f5ff;
+    /* Blueish background color  */
+}
+
+/* Apply grid layout to main element */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Apply styling to section elements */
+section {
+    padding: 1rem;
+    background-color: #fff;
+    /* White background color */
+}
