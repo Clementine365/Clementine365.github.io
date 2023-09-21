@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 header,
@@ -10,8 +10,8 @@ footer {
 }
 
 marquee {
-    padding: 1rem;
-    background-color: #eee;
+    /* Remove the marquee element */
+    display: none;
 }
 
 h1 {
@@ -20,11 +20,18 @@ h1 {
 
 main {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Create two columns */
+    gap: 20px;
+    /* Add gap between columns */
 }
 
 h2 {
     color: navy;
-    text-align: center;
+    /* Change text alignment to left */
+    text-align: left;
+    /* Span two columns */
+    grid-column: span 2;
 }
 
 article p {
@@ -32,13 +39,22 @@ article p {
 }
 
 .callout {
-    color: #777;
+    color: white;
+    /* Improve contrast */
     background-color: #702963;
+    padding: 1rem;
+    /* Add padding */
 }
 
 footer {
     margin-top: 1rem;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     font-size: smaller;
-    text-align: right;
+    text-align: left;
+}
+
+/* Add a banner class for the stationary area */
+.banner {
+    padding: 1rem;
+    background-color: #eee;
 }
