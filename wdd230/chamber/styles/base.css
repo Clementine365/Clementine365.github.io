@@ -1,0 +1,218 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+address {
+    margin: 0;
+    padding: 0;
+}
+
+/* Normalize CSS */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Global Styles */
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header .menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+    image;
+
+        {}
+}
+
+/* Header Styles */
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+header nav ul {
+    text-align: right;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* chamber for  */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        display: none;
+        position: absolute;
+        background-color: #007bff;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+/* Hero Section Styles */
+.hero img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Call to Action Styles */
+.cta {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.cta h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Current Events Styles */
+.events {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.events h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Weather Card Styles */
+.weather {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.weather h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.weather-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Company Spotlights Styles */
+.spotlights {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.spotlights h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.spotlight {
+    margin-bottom: 20px;
+}
+
+.spotlight img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .cta h2 {
+        font-size: 20px;
+    }
+
+    .cta p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 14px;
+    }
+
+    .events h2,
+    .weather h2,
+    .spotlights h2 {
+        font-size: 20px;
+    }
+}
