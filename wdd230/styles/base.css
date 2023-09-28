@@ -1,97 +1,66 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Reset default styles */
-
-
+/* Reset some default styles */
 body,
+h1,
+h2,
+h3,
+p,
 ul,
 li {
     margin: 0;
     padding: 0;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
 }
 
-/* Basic Styles */
-body {
-    background-color: whitesmoke;
-    color: #333;
-    font-size: 16px;
-}
-
+/* Basic styles for header */
 header {
-    background-color: #bbb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0,0);
-    grid-column: 1 / 4;
-}
-img{
-    width: 200px; 
-  height: 200px; 
-}
-/* Navigation Menu */
-nav {
     background-color: #333;
-    display: flex;
-    flex-direction: column;
-    /* Display links vertically */
+    color: #fff;
 }
 
-nav a {
-    color: blue;
-    padding: 10px 20px;
-    text-decoration: none;
-
+header img {
+    max-width: 60%;
+    height: auto;
 }
+
+/* Navigation styles */
 nav ul {
-	list-style-type: none;
+    list-style: none;
+    text-align: center;
+    background-color: #333;
 }
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
 nav a {
-	display: block;
-	color: #fff;
-	
-	padding: 1rem;
-	text-decoration: none;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+
 }
 
-nav a:hover {
-	border: 1px solid #fff;
-}
-
-.active {
-	color: yellow;
-}
-
-/* Main Content */
+/* Main content styles */
 main {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
-    /* Center horizontally */
     padding: 20px;
 }
-h2{
 
-}
-/* Course Cards */
-.main-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    /* Single column in mobile view */
-    gap: 20px;
+.card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
 }
 
-/* Style for course links list */
-
-    
-@media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }
