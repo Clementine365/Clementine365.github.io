@@ -1,20 +1,22 @@
-@media screen and (min-width: 768px) {
+/* Define a grid layout for larger screens */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
-    /* Navigation Menu */
-    nav {
-        flex-direction: row;
-        /* Display links horizontally */
-    }
+.card {
+    margin: 0;
+}
 
-    nav a {
-        padding: 10px 30px;
-        /* Adjust spacing for larger screens */
-    }
+/* Adjust card width for two columns */
+.card h3 {
+    text-align: center;
+}
 
-    /* Main Content */
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
     main {
-        grid-template-columns: 1fr 1fr;
-        /* Two columns in larger views */
+        grid-template-columns: 1fr;
     }
-
 }
