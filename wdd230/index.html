@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <img src="images/ic.jpg" alt="my Image">
+        <img src="images/ic.jpg" alt="clementine's profile picture" loading="lazy">
         <h1>Clementine Iradukunda</h1>
     </header>
     <nav>
@@ -38,6 +38,16 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+
+                <img srcset="images/hero-large.webp" alt="Ghana accra temple" width="960" height="480">
+            </picture>
+            <div class="herolabel">
+                <p>Ghana Accra Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -56,10 +66,21 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Weather: </p>
-            <p>Number of Visits: </p>
+            kigali,Rwanda<br>
+            <br>
+            Weather:25&deg;C - windy.<br>
+            <br>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p> <br>
+            <br>
 
         </section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255203.5538305355!2d29.962433795011748!3d-1.9297626224009223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411d0bc8!2sKigali%2C%20Rwanda!5e0!3m2!1sen!2stz!4v1695936607924!5m2!1sen!2stz"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600"
+        height="450"style="boder:0" allowfullscreen=""loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe>
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> Clementine Iradukunda RWANDA</p>
@@ -67,6 +88,7 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
