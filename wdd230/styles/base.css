@@ -19,8 +19,8 @@ header {
 }
 
 header img {
-    max-width: 60%;
-    height: auto;
+    max-width: 50%;
+    height: 50%;
 }
 
 /* Navigation styles */
@@ -105,8 +105,9 @@ footer {
     font-size: 2rem;
     font-family: "Great Vibes", serif;
 }
+
 #visits {
-	color: navy;
-	font-weight: bolder;
-	font-size: larger;
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
 }
