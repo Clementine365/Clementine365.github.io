@@ -21,18 +21,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Store the current visit date in localStorage
   localStorage.setItem("lastVisit", new Date().toString());
+
+
 });
-const msToDays = 84600000;
-// today's date
-const theDateToday = new Date();
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the element where you want to display the current date
+  const todayDateElement = document.getElementById("today_date");
 
-// initialize display elements
-const todayElement = document.querySelector("#today");
+  // Create a new Date object to get the current date
+  const currentDate = new Date();
 
-// processing
-const today = Date.now();
-let today_date = Date(Date.UTC(theDateToday.getFullYear(),
-
-
-  today_dateElement.textContent = today_date;
-  document.querySelector('.today').textContent = Date.now();
+  // Format the date as desired (e.g., "Month Day, Year")
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = currentDate.toLocaleDateString('en-US', options);
+  // Set the formatted date in the HTML element
+  todayDateElement.textContent = formattedDate;
+  
+});
