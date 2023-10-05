@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #007bff;
+    --form-margin: 20px;
+    --label-width: 150px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 600px;
+    margin: var(--form-margin) auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: var(--label-width);
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
