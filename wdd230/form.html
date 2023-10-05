@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form for  Home Page</title>
+    <link rel="stylesheet" href="styles/form.css"> 
+</head>
+<body>
+    <header>
+        <!-- header content  -->
+    </header>
+    
+    <nav>
+        <!--  navigation menu  -->
+    </nav>
+
+    <main>
+        <h1>Registration Form</h1>
+        <form action="record.html" method="get">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]+" minlength="8">
+            
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required pattern="[a-zA-Z0-9]+" minlength="8">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+
+            <label for="pageRating">Page Rating</label>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" value="5">
+            <span id="ratingValue">5</span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        
+    </footer>
+    
+    <script src="scripts/form.js">
+    </script>
+</body>
+</html>
