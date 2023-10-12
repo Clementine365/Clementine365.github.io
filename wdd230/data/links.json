@@ -1,0 +1,74 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/site_plan.html.html",
+            "title": "siteplan"
+          },
+          {
+            "url": "week01/holygrail.html",
+            "title": "holygrail"
+          }
+          
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/bom.html",
+            "title": "bom"
+          },
+          {
+            "url": "week02/design.html",
+            "title": "design"
+          }
+          
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy load"
+          },
+          {
+            "url": "week03/reponsive_images.html",
+            "title": "responsive"
+          }
+          
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/tablebuild.html",
+            "title": "tablebuilt"
+          },
+          {
+            "url": "week04/webform.html",
+            "title": "webform"
+          }
+          
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/prophets.html",
+            "title": "prophets"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "weather"
+          }
+          
+        ]
+      }
+    ]
+  }
