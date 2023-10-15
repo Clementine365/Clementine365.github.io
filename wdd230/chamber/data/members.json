@@ -1,0 +1,67 @@
+{
+    "members": [
+      {
+        "name": "Neza safari",
+        "address": "KG 70ST, KIGALI, Rwanda",
+        "phone": "+250 788355530",
+        "website": "https://nezasafaris.com/",
+        "image": "https://www.rwandayp.com/img/rw/d/_1599117406-13-neza-safaris.jpg",
+        "membership_level": "Gold",
+        "other_information": "Have questions? Get answers from Neza SAFARIS or Rwanda YP users. Visitors haven’t asked any questions yet."
+      },
+      {
+        "name": "TASS Gateway and Travels Ltd - Kigali",
+        "address": "KG, Kigali, Rwanda",
+        "phone": "+250788380606",
+        "website": "http://www.tass5.co.rw/",
+        "image": "https://www.rwandayp.com/img/rw/s/1602937527-42-tass-gateway-and-travels-ltd.jpg",
+        "membership_level": "Silver",
+        "other_information": "I would not recommend any other travel agency in Rwanda, very organized people, listening and very helpful."
+      },
+      {
+        "name": "Legacy Travels & Tours Ltd - Kigali",
+        "address": "11ave, Kigali, Rwanda",
+        "phone": "+250788315054",
+        "website": "http://www.legacyttours.com/",
+        "image": "https://www.rwandayp.com/img/rw/h/1632227833-51-legacy-travels-tours-ltd.jpg",
+        "membership_level": "Bronze",
+        "other_information": "I have find good quality of services from legacy travel& tours. I have enjoyed with their products and services of high quality especially about their communication and time management. I loved the way they respond as quick as possible and give the feedback to the customer. I believe that this company is the best in the region as they achieve what promised"
+      },
+      {
+        "name": "Apogee Tours & Safaris Ltd - Kigali!",
+        "address": "RN4 ruhengeri, Kigali, Rwanda",
+        "phone": "+250787263885",
+        "website": "https://www.apogeehospitality.rw/tours-safaris",
+        "image": "https://www.rwandayp.com/img/rw/h/1663858777-95-apogee-tours-safaris-ltd.jpg",
+        "membership_level": "Silver",
+        "other_information": "this company has no reviews. Be the first to share your experiences!"
+      },
+      {
+        "name": "HoteliToday.com - Kigali",
+        "address": "KN70, kigali, Rwanda",
+        "phone": "+250 788 630 837",
+        "website": "http://hotelitoday.com/",
+        "image": "https://www.rwandayp.com/img/rw/s/1613488718-61-hotelitoday-com.jpg",
+        "membership_level": "Gold",
+        "other_information": "Ikaze"
+      },
+      {
+        "name": "Travel Abroad Solution and Services Ltd - Kigali",
+        "address": "KG182st, Kigali, Rwanda",
+        "phone": "+250788380606",
+        "website": "http://www.tass5.co.rw/",
+        "image": "https://www.rwandayp.com/img/rw/m/1590246515-83-travel-abroad-solution-and-services-ltd.jpg",
+        "membership_level": "Bronze",
+        "other_information": "we love visitors"
+      },
+      {
+        "name": "GO SAFARIS AFRICA - Kigali",
+        "address": "RN 15, Kigali, Rwanda",
+        "phone": "+250788365595",
+        "website": "https://www.gosafarisafrica.com/",
+        "image": "https://www.rwandayp.com/img/rw/k/1643046269-49-go-safaris-africa.jpg",
+        "membership_level": "Gold",
+        "other_information": "Travelling is our goal"
+      }
+    ]
+  }
