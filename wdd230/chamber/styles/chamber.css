@@ -1,0 +1,85 @@
+body,
+h1,
+h2,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #ffffff;
+
+    color: #333333;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Style the header */
+header {
+    background-color: #007ACC;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style headings */
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Style lists */
+ul,
+ol {
+    margin-left: 20px;
+}
+
+/* Style links */
+a {
+    color: #007ACC;
+    text-decoration: none;
+}
+
+/* Style images in the wireframe section */
+.wireframe-images img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Define button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007ACC;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005C99;
+}
