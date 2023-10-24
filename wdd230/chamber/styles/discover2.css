@@ -1,0 +1,23 @@
+/* CSS for the sidebar */
+#sidebar {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+/* CSS for the main area */
+#main-area {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for the images in the main area */
+#main-area img {
+    width: 70%;
+    margin-bottom: 20px;
+    /* Add more styling as needed */
+}
