@@ -2,18 +2,18 @@
 
     /* Navigation Menu */
     nav {
-        flex-direction: row;
-        /* Display links horizontally */
+        flex-direction: column;
+        
     }
 
     nav a {
-        padding: 10px 30px;
+        padding: 10px 20px;
         /* Adjust spacing for larger screens */
     }
 
     /* Main Content */
     main {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         /* Two columns in larger views */
     }
 
